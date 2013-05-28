@@ -149,7 +149,7 @@
 	$(document).on('click', function(e) {
 	    // Lets hide the menu when the page is clicked anywhere but the menu.
 	    var $clicked = $(e.target);
-	    if (!$clicked.parents().hasClass("jdropdown-menu") && !$clicked.parents().hasClass("jdropdown-anchor") && !$clicked.hasClass("jdropdown-menu") && !$clicked.hasClass("jdropdown-anchor")){
+	    if (!$clicked.closest("jdropdown-menu").length && !$clicked.closest("jdropdown-anchor").length){
 	    	//alert("closing");
 	    	close();
 		}
