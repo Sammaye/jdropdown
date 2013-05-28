@@ -2,7 +2,7 @@
  * Jdropdown
  *
  * @author Sam Millman
- * @licence GNU or whatever
+ * @licence MIT License (http://opensource.org/licenses/mit-license.html)
  *
  * This plugin basically allows you to connect a menu to an anchor.
  * This anchor can be literally anything, from a <div/> to an <a/> and even a <li/>.
